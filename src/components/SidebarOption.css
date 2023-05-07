@@ -1,0 +1,48 @@
+.sidebarOption {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    /* padding: 5px; */
+    cursor: pointer;
+    margin: 13px;
+}
+
+.sidebarOption:hover {
+    opacity: 0.9;
+    background-color: #dcdfe2;
+}
+
+.sidebarOption__icon1 {
+    font-size: 30px !important;
+    color: #46f463;
+}
+
+.sidebarOption__icon2 {
+    font-size: 30px !important;
+    color: #ea6060;
+}
+
+
+.sidebarOption__icon3 {
+    font-size: 30px !important;
+    color: #4b99f2;
+}
+
+
+.sidebarOption__icon4 {
+    font-size: 30px !important;
+    color: #08d8d5;
+}
+
+
+.sidebarOption__icon5 {
+    font-size: 30px !important;
+    color: #2a2389;
+}
+
+
+.sidebarOption > h2 {
+    font-size: 15px;
+    font-weight: 100px;
+    margin-left: 10px;
+}

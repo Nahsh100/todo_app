@@ -1,0 +1,64 @@
+.page {
+    flex: 0.7;
+    padding: 20px;
+    
+}
+
+.page__date {
+    color: #1ad339;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.page__header {
+     display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page__headerTitle {
+    display: flex;
+    height: fit-content;
+    align-items: center;
+    
+}
+
+.page__headerStyle1 {
+    color: #46f463;
+}
+
+.page__headerStyle2 {
+    color: #ea6060;
+}
+
+.page__headerStyle3 {
+    color: #4b99f2;
+}
+
+.page__headerStyle4 {
+    color: #08d8d5;
+}
+
+.page__headerStyle5 {
+    color: #2a2389;
+}
+
+.page__headerIcon {
+    font-size: 40px !important;
+}
+
+
+.page__headerIcons {
+    display: flex;
+    height: fit-content;
+    color: gray;
+}
+
+.page__heading {
+    text-transform: capitalize;
+}
+
+
+.page__addTodo {
+    bottom: 30px;
+}

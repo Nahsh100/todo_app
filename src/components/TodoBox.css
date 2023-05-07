@@ -1,0 +1,38 @@
+.todobox {
+    display: flex;
+    justify-content: space-between;
+    background-color: #EFEFEF;
+    padding: 5px;
+    align-items: center;
+    margin-bottom: 5px;;
+}
+
+.todobox__left {
+    /* flex: 1; */
+    display: flex;
+    align-items: center;
+    
+}
+
+.todobox__left > p {
+    margin-left: 5px;
+}
+
+.todobox__right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(54, 54, 54);
+}
+
+.todobox__right > .MuiSvgIcon-root {
+    margin: 5px;
+}
+
+.editIcon:hover {
+    cursor: pointer;
+}
+
+.deleteIcon:hover {
+    cursor: pointer;
+}
